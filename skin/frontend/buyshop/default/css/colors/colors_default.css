@@ -19,51 +19,51 @@ h4, h1, .block-title, h2, h2 a {
     /*Theme color*/
 
     .jcarousel-skin-brands a.btn:hover,.carousel-testimonials .flexslider .flex-direction-nav a,#nav > li.hover > a, #nav > li > a:hover,.filters-by-category li a.selected,.countdown_inner,#megamenu ul.rows_outer ul.menu_row li.col li.title span,a.quickview:hover,.sale_discount,.dashboard .box-tags .number, .button_small, #topline a.button_small, .data-table thead th, .flexslider.vertical .flex-direction-nav a:hover, button.button-3x, .button.button-3x, .button, .flexslider.banners .flex-direction-nav a:hover, a.btn, .loader-slider, .nav-header > a, .nav-list > li > a:hover, button, .form-search button, .form-mail button, .shoppingcart .fadelink span a, .shopping_cart_mini .button:hover, a.small_icon_color i, .middle_icon_color, .nav-tabs > li > a:hover, .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .direction-nav a:hover, .es-nav a.btn:hover {
-    background-color: #00a9c8;
+    background-color: #2744a0;
 }
 #header.header_v_2 #nav li.level1:hover {
-    border-left: 4px solid #00a9c8;
+    border-left: 4px solid #2744a0;
 }
 .cloud-zoom-lens {
-    border: 2px solid #00a9c8;
+    border: 2px solid #2744a0;
 }
 
 .checkout-progress li.active, #nav > li > ul, #nav li:hover .menu_custom_block {
-    border-top-color: #00a9c8;
+    border-top-color: #2744a0;
 }
     .ls-nav-prev, .ls-nav-next,.ls-nav-prev:hover, .ls-nav-next:hover, #collapsed-menu li.active > label > a,#nav li.active > a, #collapsed-menu .nav-list li.active > a,.price-label,#megamenu span.inside i,.flex-next .icon-up, .flex-prev .icon-down, a.fancy-zoom,#megamenu i, #megamenu em,.tparrows i,.product-listing a.outofstock,a.icon-trash-2, .block-account .block-content li.current, .product-img-box .more-views li i, .listing_header_row1 a.icon-th.active, .listing_header_row1 a.icon-th-list.active, .listing_header_row1 a.icon-th:hover, .listing_header_row1 a.icon-th-list:hover, a:hover .custom_color, a.custom_color:hover, #header.header_v_2 #nav li li li a:hover, h4 [class^="icon-"], #carousel_tabs a.active, h2 a:hover, .preview .product-tocart a, .rating strong i, .custom_color, a .custom_color, .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover, .flex-direction-nav a, h2 i, h2 span, #nav > li:hover > a, .nav-list li li a:hover, #topline a, .product .product-tocart a, .twit a, .twit .icon, .form-login button i {
-    color: #00a9c8;
+    color: #2744a0;
 }
     .carousel-testimonials .quotes,.in.collapse li.active > a{
-color: #00a9c8 !important;
+color: #2744a0 !important;
 }
-.quickviewblock .price{color: #00a9c8 !important;}
+.quickviewblock .price{color: #2744a0 !important;}
 
     .filters-by-category li a.selected, .filters-by-category li a:hover,.style2 .es-nav, .custom_blocks .box .inside, .tab-content, #nav li:hover .menu_custom_block, #header.header_v_2 .bylink li li:hover a, #header.header_v_2 #nav li li li:hover {
-    border-color:#00a9c8;
+    border-color:#2744a0;
 }
 .flexslider.banners {
-    border-bottom: 5px solid #00a9c8;
+    border-bottom: 5px solid #2744a0;
 }
 .box-wrapper .line {
-    border-top: 5px solid #00a9c8;
+    border-top: 5px solid #2744a0;
 }
     
     /*Theme hover color */
 .flexslider.more-views .flex-direction-nav a:hover, .button_small:hover, #topline a.button_small:hover, .promo_box:hover div, .button:hover, button:hover, .form-search button.btn:hover, .form-mail button.btn:hover, .shoppingcart:hover .fadelink span a, a.small_icon_color:hover i, button:hover, .form-search button.btn:hover, .form-mail button.btn:hover, .shoppingcart:hover .fadelink span a, a.small_icon_color:hover i {
-    background-color: #0293ad;
+    background-color: #142868;
 }
 .preview .product-tocart a:hover, .product-img-box .more-views li a i:hover, .product .product-tocart a:hover, a.custom_color:hover {
-    color:#0293ad}
+    color:#142868}
 #footer_bottom a i:hover {
-    color:#0293ad !important
+    color:#142868 !important
 }
     
 
 
     /*Input hover color (focus border) */
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
-    border-color: #0293ad;
+    border-color: #2744a0;
 }
     
     /*Text color*/
@@ -77,7 +77,7 @@ a, .listing_header_row1 a[class^="icon-"] {
     
     /*Link color:hover*/
 .block-account .block-content li a:hover, a:hover {
-    color:#0293ad}
+    color:#142868}
 
     
     /****************************************CONTENT******************************************/
@@ -95,12 +95,12 @@ a, .listing_header_row1 a[class^="icon-"] {
     
     /*Link Color*/
 #topline a, #topline .login_social span.custom_color {
-    color:#00a9c8;
+    color:#2744a0;
 }
     
     /*Link Color Hover*/
 #topline a:hover {
-    color:#0293ad;
+    color:#1b2e6a;
 }
     
     /*Background Color*/

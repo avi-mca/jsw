@@ -26,6 +26,7 @@
             <action method="addItem"><type>skin_css</type><name>css/skin_advanced.css</name><params/></action>
 
             <action method="addItem" ifconfig="buyshopcolors/general/custom_css"><type>skin_css</type><name>css/custom_changes.css</name><params/></action>
+			<action method="addItem"><type>skin_css</type><name>css/custom.css</name><params/></action>
 
             <!--JS-->
             <!--<action method="addJs"><script>etheme/buyshop/jquery-1.7.2.min.js</script></action>-->

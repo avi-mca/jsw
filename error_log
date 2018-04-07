@@ -1,0 +1,366 @@
+[04-Apr-2018 10:12:34 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[04-Apr-2018 10:20:04 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[04-Apr-2018 10:21:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 12288 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[04-Apr-2018 11:43:12 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:43:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:43:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:43:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:43:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:44:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:44:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:46:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:46:36 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:47:03 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:47:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:47:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:47:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:48:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:48:24 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 11:48:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WebRotate360_Catalog_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/Mage_Adminhtml_Block_System_Config_Tabs.php(117): Mage::helper('WebRotate360_Ca...')
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php(104): Mage_Adminhtml_Block_System_Config_Tabs->initTabs()
+#2 /home/digitalmate/public_html/jsw/includes/src/__default.php(14339): Mage_Adminhtml_System_ConfigController->editAction()
+#3 /home/digitalmate/public_html/jsw/includes/src/__default.php(18831): Mage_Core_Controller_Varien_Action->dispatch('edit')
+#4 /home/digitalmate/public_html/jsw/includes/src/__default.php(18361): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21317): Mage_Core_Controller_Varien_Front->dispatch()
+#6 /home/digitalmate/public_html/jsw/app/Mage.php(683): M in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:07 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:10 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:30 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:45 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:48 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:50 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:51 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:10:55 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:11:07 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:11:37 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:13:02 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:14:10 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:14:25 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:14:25 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:14:25 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:17:44 UTC] PHP Fatal error:  Uncaught Error: Class 'AW_Rma_Helper_Data' not found in /home/digitalmate/public_html/jsw/app/Mage.php:547
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/local/AW/Rma/sql/awrma_setup/mysql4-install-1.0.php(29): Mage::helper('awrma')
+#1 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(624): include('/home/digitalma...')
+#2 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.4.2')
+#3 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.4.2')
+#4 /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#5 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#6 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_ in /home/digitalmate/public_html/jsw/app/Mage.php on line 547
+[04-Apr-2018 12:27:01 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:32:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:33:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:48:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:48:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:48:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:48:42 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[04-Apr-2018 12:48:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Aitoc_Aitsys_Model_Mysql4_Setup' not found in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php:234
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/includes/src/__default.php(21380): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#1 /home/digitalmate/public_html/jsw/includes/src/__default.php(21306): Mage_Core_Model_App->_initModules()
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#3 /home/digitalmate/public_html/jsw/index.php(83): Mage::run('', 'store')
+#4 {main}
+  thrown in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_Resource_Setup.php on line 234
+[06-Apr-2018 11:08:27 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 11:14:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 11:17:56 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 11:22:19 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 11:24:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 11:27:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 13:58:29 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 14:00:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 14:01:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 14:05:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[06-Apr-2018 14:05:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101

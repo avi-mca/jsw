@@ -1,0 +1,8 @@
+
+#topline{ background:none!important; padding:10px 0; border-bottom:1px solid #ddd; box-shadow:none!important;}
+#topline .phone span { color:#9b9b9b!important}
+
+#topline .fadelink > a { padding:4px 30px 4px 7px; margin-top:-3px; background-position:right 1px;}
+#topline .fadelink .ul_wrapper { top:19px;}
+
+#bottom_block { background:#eee;}

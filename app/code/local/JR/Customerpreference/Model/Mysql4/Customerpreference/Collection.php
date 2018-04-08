@@ -1,0 +1,10 @@
+<?php
+
+class JR_Customerpreference_Model_Mysql4_Customerpreference_Collection extends Mage_Core_Model_Mysql4_Collection_Abstract
+{
+    public function _construct()
+    {
+        parent::_construct();
+        $this->_init('customerpreference/customerpreference');
+    }
+}

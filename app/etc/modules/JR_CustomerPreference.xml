@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JR_Customerpreference>
+            <active>true</active>
+            <codePool>local</codePool>
+        </JR_Customerpreference>
+    </modules>
+</config> 

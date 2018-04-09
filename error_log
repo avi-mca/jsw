@@ -364,3 +364,11 @@ Stack trace:
 [06-Apr-2018 14:01:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
 [06-Apr-2018 14:05:31 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
 [06-Apr-2018 14:05:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/digitalmate/public_html/jsw/includes/src/Mage_Core_Model_File_Validator_Image.php on line 101
+[09-Apr-2018 04:50:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getReadConnection() on boolean in /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php:134
+Stack trace:
+#0 /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Config.php(1357): Mage_Core_Model_Resource_Db_Collection_Abstract->__construct(false)
+#1 /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Config.php(1389): Mage_Core_Model_Config->getModelInstance('customerprefere...', false)
+#2 /home/digitalmate/public_html/jsw/app/Mage.php(491): Mage_Core_Model_Config->getResourceModelInstance('customerprefere...', false)
+#3 /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Abstract.php(208): Mage::getResourceModel('customerprefere...', false)
+#4 /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Abstract.php(213): Mage_Core_Model_Abstract->getResourceCollection()
+#5 /home/digitalmate/public_html/jsw/app/code/local/JR/Customerpreference/Block/Adminhtml/Customerpreference/Grid.p in /home/digitalmate/public_html/jsw/app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php on line 134

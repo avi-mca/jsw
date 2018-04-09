@@ -6,3 +6,21 @@
 #topline .fadelink .ul_wrapper { top:19px;}
 
 #bottom_block { background:#eee;}
+#topline .fadelink .ul_wrapper ul, #topline .fadelink > a { background-color:#ed1c24!important}
+#topline .fadelink li a, #topline .fadelink > a { color:#fff!important}
+#topline .fadelink li a:hover, #topline .fadelink > a:hover {
+    color: #fff!important;
+}
+.menu_custom_block .what-more ul li { width:22%; margin:10px 2% 10px 1%!important; text-align:center}
+.menu_custom_block .what-more ul li img { display:inline-block}
+.menu_custom_block .what-more ul li:nth-child(4n+4) { margin-right:0!important;}
+#topline .fadelink { margin-right:0px;}
+#header { background:url(../images/nav-bg.jpg) repeat-x 0 100%;}
+.flexslider { border-top:0;}
+#logo { padding:3px 0 15px;}
+.banner-container-1 .banner-2 .text-box {box-shadow:none}
+.opc .active .step-title { margin-left:5px; margin-right:5px;}
+
+@media (max-width: 767px) {
+	#header { background:none}
+	}

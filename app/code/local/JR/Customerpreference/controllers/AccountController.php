@@ -5,6 +5,7 @@ class JR_Customerpreference_AccountController extends Mage_Customer_AccountContr
     public function preferenceAction()
     {
     		$this->loadLayout();
+        $this->_initLayoutMessages('customer/session');
     		$this->renderLayout();
     }
 
@@ -16,7 +17,7 @@ class JR_Customerpreference_AccountController extends Mage_Customer_AccountContr
         }
 
         if (!$this->_getSession()->isLoggedIn()) {
-            $this->_redirect('*/preference');
+            $this->_redirect('*/*/');
             return;
         }
         $session = $this->_getSession();
@@ -63,6 +64,7 @@ class JR_Customerpreference_AccountController extends Mage_Customer_AccountContr
                       $attrModel->save();
                   }
               }
+              $session->getCustomer()->setPreference(1)->save();
               $session->addSuccess(Mage::helper('customerpreference')->__('Thank you for submitting your preferences.'));
            } catch (Exception $e) {
               $session->addError($e->getMessage());

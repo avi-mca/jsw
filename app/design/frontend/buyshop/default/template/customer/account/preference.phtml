@@ -1,4 +1,5 @@
 <h1><?php echo $this->__('Help us know you better') ?></h1>
+<div id="messages_customer_preference"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
 <p><?php echo $this->__('In less than 5 mins...') ?></p>
 <form action="<?php echo $this->getUrl('customer/account/preferencePost') ?>" enctype="multipart/form-data" id="preference_form" method="post">
     <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
@@ -81,6 +82,7 @@
     </div>
 
     <div class="button-set">
+        <a href="<?php echo $this->getUrl('customer/account')?>"><span><< <?php echo $this->__('Back')?></span></a>
         <button type="submit" class="btn"><span><span><?php echo $this->__('Complete')?></span></span></button>
     </div>
 </form>

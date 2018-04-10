@@ -1,9 +1,15 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
+        <reference name="before_body_end">
+            <block type="customerpreference/customerpreference" name="preference.popup" template="customer/account/preference/popup.phtml"/>
+        </reference>
     </default>
     <customer_account_preference>
         <update handle="customer_account"/>
+        <reference name="head">
+            <action method="setTitle"><title>My Preference</title></action>
+        </reference>
         <reference name="root">
             <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
@@ -11,4 +17,13 @@
             <block type="customerpreference/customerpreference" name="customerpreference" template="customer/account/preference.phtml" />
         </reference>
     </customer_account_preference>
+    <customer_account>
+        <reference name="customer_account_navigation">
+            <action method="addLink">
+                <name>customer_preference</name>
+                <path>customer/account/preference</path>
+                <label>My Preference</label>
+            </action>
+        </reference>
+    </customer_account>
 </layout>

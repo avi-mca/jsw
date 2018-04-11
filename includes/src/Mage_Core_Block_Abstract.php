@@ -1,4 +1,6 @@
 <?php
+/* DO NOT MODIFY THIS FILE! THIS IS TEMPORARY FILE AND WILL BE RE-GENERATED AS SOON AS CACHE CLEARED. */
+
 /**
  * Magento
  *
@@ -34,7 +36,7 @@
  * @package    Mage_Core
  * @author     Magento Core Team <core@magentocommerce.com>
  */
-abstract class Mage_Core_Block_Abstract extends Varien_Object
+abstract class Aitoc_Aitsys_Model_Rewriter_Mage_Core_Block_Abstract extends Varien_Object
 {
     /**
      * Prefix for cache key
@@ -1492,3 +1494,17 @@ abstract class Mage_Core_Block_Abstract extends Varien_Object
         return $this->_getApp()->getFrontController()->getRequest()->isSecure();
     }
 }
+
+
+
+abstract class Mage_Core_Block_Abstract extends Aitoc_Aitsys_Model_Rewriter_Mage_Core_Block_Abstract
+{
+    protected function _afterToHtml($html)
+    {
+        $html = parent::_afterToHtml($html);
+        $transport = new Varien_Object(array('html' => $html));
+        Mage::dispatchEvent('aitsys_block_abstract_to_html_after', array('block' => $this, 'transport'=>$transport));  
+        return $transport->getHtml();
+    }
+}
+

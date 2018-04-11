@@ -31,8 +31,9 @@
             foreach ($attributeOptions as $_option):
         ?>
         	<div class="cell">
-            <label for="style<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
             <input type="checkbox" name="attribute[style][]" id="style<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
+            <label for="style<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
+            
             </div>
             <?php endforeach; ?>
         <?php endif;?>
@@ -48,8 +49,9 @@
             foreach ($attributeOptions as $_option):
         ?>
         	<div class="color-box">
-            <label for="color<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
             <input type="checkbox" name="attribute[color][]" id="color<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
+            <label for="color<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
+            
             </div>
             <?php endforeach; ?>
         <?php endif;?>
@@ -65,8 +67,9 @@
             foreach ($attributeOptions as $_option):
         ?>
         	<div class="item-box">
-            <label for="looking_for<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
+            
             <input type="checkbox" name="attribute[looking_for][]" id="looking_for<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
+            <label for="looking_for<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
             </div>
             <?php endforeach; ?>
         <?php endif;?>

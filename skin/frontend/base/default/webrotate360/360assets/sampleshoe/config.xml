@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
   <settings>
-    <preloader image="images/Filename_34.jpg" />
+    <preloader image="images/Filename_26.jpg" />
     <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="false" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="#FFFFFF" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0.9" toolbarAlpha="1" flashEmbedFonts="true" progressLoopColor="#e8e8e8" progressNumColor="#949494" />
     <control dragSpeed="0.13" maxZoom="200" maxZoomFullScreen="200" fullScreenStretch="100" doubleClickZooms="true" disableMouseControl="false" reverseScroll="false" hideHotspotsOnLoad="false"/>
-    <rotation firstImage="33" rotate="false" rotatePeriod="7" rotateDirection="-1" bounce="false" useInertia="true"/>
+    <rotation firstImage="25" rotate="false" rotatePeriod="7" rotateDirection="-1" bounce="false" useInertia="true"/>
   </settings>
   <hotspots><hotspot id="spot1" absolutePosition="false" className="WebRotate360.ImageRotator.Html5HotspotPresenter" indicatorImage="circ-cross-thin-blue.svg" alpha="0.8">
     <spotinfo>
@@ -101,45 +101,7 @@ Possibilities are endless with WebRotate 360 interactive hotspots. Images, text,
       <hotspot source="spot1" offsetX="313" offsetY="165" />
       <highres src="images/highres/Filename_26.jpg" />
     </image>
-    <image src="images/Filename_27.jpg">
-      <hotspot source="spot1" offsetX="294" offsetY="169" />
-      <highres src="images/highres/Filename_27.jpg" />
-    </image>
-    <image src="images/Filename_28.jpg">
-      <hotspot source="spot1" offsetX="271" offsetY="173" />
-      <highres src="images/highres/Filename_28.jpg" />
-    </image>
-    <image src="images/Filename_29.jpg">
-      <hotspot source="spot1" offsetX="247" offsetY="175" />
-      <highres src="images/highres/Filename_29.jpg" />
-    </image>
-    <image src="images/Filename_30.jpg">
-      <hotspot source="spot1" offsetX="222" offsetY="175" />
-      <highres src="images/highres/Filename_30.jpg" />
-    </image>
-    <image src="images/Filename_31.jpg">
-      <hotspot source="spot1" offsetX="196" offsetY="174" />
-      <highres src="images/highres/Filename_31.jpg" />
-    </image>
-    <image src="images/Filename_32.jpg">
-      <hotspot source="spot1" offsetX="172" offsetY="171" />
-      <highres src="images/highres/Filename_32.jpg" />
-    </image>
-    <image src="images/Filename_33.jpg">
-      <hotspot source="spot1" offsetX="150" offsetY="168" />
-      <highres src="images/highres/Filename_33.jpg" />
-    </image>
-    <image src="images/Filename_34.jpg">
-      <hotspot source="spot1" offsetX="132" offsetY="165" />
-      <highres src="images/highres/Filename_34.jpg" />
-    </image>
-    <image src="images/Filename_35.jpg">
-      <hotspot source="spot1" offsetX="117" offsetY="160" />
-      <highres src="images/highres/Filename_35.jpg" />
-    </image>
-    <image src="images/Filename_36.jpg">
-      <hotspot source="spot1" offsetX="105" offsetY="155" />
-      <highres src="images/highres/Filename_36.jpg" />
-    </image>
+    
+    
   </images>
 </config>

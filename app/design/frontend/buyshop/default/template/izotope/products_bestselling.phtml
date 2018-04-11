@@ -1,0 +1,61 @@
+<?php
+/* @var $this Mage_Reports_Block_Product_Viewed */
+?>
+<?php
+$storeId = Mage::app()->getStore()->getStoreId();
+$sales_order = Mage::getSingleton('core/resource')->getTableName('sales_flat_order');
+$sales_order_item = Mage::getSingleton('core/resource')->getTableName('sales_flat_order_item');
+
+$_productCollection = Mage::getModel('sales/order_item')->getCollection();
+
+$_productCollection = $_productCollection->addAttributeToSelect('order_id')
+                ->addAttributeToSelect('product_id')
+                ->addAttributeToFilter('main_table.store_id', $storeId)
+                ->addAttributeToFilter('main_table.parent_item_id', array('null' => true));
+
+$_productCollection->getSelect()
+                   ->join(array('so' => $sales_order), 'main_table.order_id = so.entity_id',  array('so.*'))
+                   ->where("so.status <> 'canceled'")
+                   ->columns('SUM(main_table.qty_ordered) AS total_qty')
+                   ->order(array('total_qty desc'))
+                   ->group(array('main_table.product_id'));
+echo $_productCollection->getSelect();
+?>
+<?php if ($_productCollection): ?>
+    <?php foreach ($_productCollection as $_product):
+      $_product = Mage::getModel('catalog/product')->load($order->getProductId());
+      ?>
+    <?php  if(!$_product->isSaleable() && !Mage::getStoreConfig('cataloginventory/options/show_out_of_stock'))continue; ?>
+    <?php
+        $widthBig=258;
+        $heightBig=245;
+        $widthSmall=71;
+        $heightSmall=65;
+    $price=$this->getPriceHtml($_product, true);
+    $izotope=true;
+    ?>
+        <?php
+        /*
+         * Product Preview HTML  is using in many blocks (category listing, shortcodes).
+         * That is why Product Preview HTML generation collected in one function drawProductPreview()
+         * You can edit this function  in file \app\code\local\Etheme\Megatronconfig\Helper\Data.php
+        */
+        ?>
+        <?php
+        $colorswatches='';
+        if (Mage::getStoreConfig('configswatches/general/enabled', Mage::app()->getStore())) {
+            $colorswatches=$this->getLayout()->createBlock('core/template')->setTemplate('configurableswatches/catalog/product/list/swatches.phtml')->setProduct($_product)->toHtml();
+        }
+        ?>
+        <!--PRODUCT-->
+        <?php  echo Mage::helper('buyshopconfig')->getProductHtml($_product,$this,$widthBig,$heightBig,3,true,true,false,true,$price,$izotope, $this->getCategoryId(),$colorswatches)?>
+        <?php echo Mage::helper('buyshopconfig')->getProductHover($_product,$this,$widthBig,$heightBig,$widthSmall,$heightSmall,$type='',true,true,$price, $colorswatches)?>
+        <!--PRODUCT EOF-->
+
+    <?php endforeach ?>
+    <?php
+    if (Mage::getStoreConfig('configswatches/general/enabled', Mage::app()->getStore())) {
+        echo $this->getLayout()->createBlock('configurableswatches/catalog_media_js_list')->setTemplate('configurableswatches/catalog/media/js.phtml')->setProductCollection($_productCollection)->toHtml();
+    }
+    ?>
+<?php endif; ?>

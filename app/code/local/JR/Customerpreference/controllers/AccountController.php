@@ -73,4 +73,20 @@ class JR_Customerpreference_AccountController extends Mage_Customer_AccountContr
         $this->_redirectReferer();
         return;
     }
+    /**
+     * Customer logout action
+     */
+    public function logoutAction()
+    {
+        $session = $this->_getSession();
+        $session->logout()->renewSession();
+
+        if (Mage::getStoreConfigFlag(Mage_Customer_Helper_Data::XML_PATH_CUSTOMER_STARTUP_REDIRECT_TO_DASHBOARD)) {
+            $session->setBeforeAuthUrl(Mage::getBaseUrl());
+        } else {
+            $session->setBeforeAuthUrl($this->_getRefererUrl());
+        }
+        Mage::getSingleton('core/session')->setShownPopup(0);
+        $this->_redirect('*/*/logoutSuccess');
+    }
 }

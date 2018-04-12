@@ -339,7 +339,7 @@ jQuery(window).resize(function() {
     if (isotopeOuter.length != 0) {
         isotopeOuter.isotope('reLayout');
     }
-    jQuery(".collapse").collapse();
+//    jQuery(".collapse").collapse();
     jQuery(".preview").hide();
     jQuery(".small_preview").hide();
     jQuery(".shopping_cart_mini").hide();

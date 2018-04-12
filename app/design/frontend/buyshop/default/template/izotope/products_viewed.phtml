@@ -3,8 +3,39 @@
 ?>
 <?php
 if(Mage::getSingleton('customer/session')->isLoggedIn()){
-    $block = $this->getLayout()->createBlock('reports/product_viewed');
-    $_productCollection = $block->getRecentlyViewedProducts();
+    $customer = Mage::getSingleton('customer/session')->getCustomer();
+
+    if(!$customer->getPreference()){
+        $block = $this->getLayout()->createBlock('reports/product_viewed');
+        $_productCollection = $block->getItemsCollection();
+    }else{
+        $preference = Mage::getModel('customerpreference/customerpreference')->getCollection()
+                                      ->addFieldToSelect('preference_id')
+                                      ->addFieldToFilter('entity_id', array('eq' => $customer->getId()))
+                                      ->getFirstItem();
+
+        $preferedAttributes = Mage::getModel('customerpreference/attribute')->getCollection()
+                                      ->addFieldToFilter('preference_id', array('eq' => $preference->getId()));
+
+        $visibility = array(
+          Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH,
+          Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_CATALOG,
+          Mage_Catalog_Model_Product_Visibility::VISIBILITY_IN_SEARCH
+        );
+        $productCollection = Mage::getModel('catalog/product')->getCollection()
+                                          ->addAttributeToSelect('*')
+                                          ->addAttributeToFilter('visibility' , $visibility)
+                                          ->addAttributeToFilter('status', '1');
+        foreach ($preferedAttributes as $attr) {
+            $productCollection->addAttributeToFilter($attr->getAttributeCode(), array('in' => explode(",",$attr->getValues())));
+        }
+        if($productCollection->count() > 0){
+            $_productCollection = $productCollection;
+        }else{
+            $block = $this->getLayout()->createBlock('reports/product_viewed');
+            $_productCollection = $block->getItemsCollection();
+        }
+    }
 }else{
 
     $category = Mage::getModel('catalog/category')->load($this->getCategoryId());

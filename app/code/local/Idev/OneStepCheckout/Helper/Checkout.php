@@ -513,7 +513,7 @@ class Idev_OneStepCheckout_Helper_Checkout extends Mage_Core_Helper_Abstract
             return true;
         }
 
-        return false;
+        return true;
     }
 
     function checkEntryDev($domain, $serial)

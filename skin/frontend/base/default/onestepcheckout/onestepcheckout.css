@@ -805,3 +805,14 @@ div.onestepcheckout-comments textarea {
     overflow: auto;
     text-align:left;
 }
+.group-select li {
+    padding: 4px 0 4px 4px;
+}
+@media (max-width: 767px){ 
+#onestepcheckout-form .group-select {
+    padding: 0px !important;
+}
+div.onestepcheckout-threecolumns div.onestepcheckout-column-left { width:100%; margin-right:0;background:none}
+div.onestepcheckout-threecolumns div.onestepcheckout-column-middle { width:100%; padding-left:0; margin-right:0; background:none}
+div.onestepcheckout-threecolumns div.onestepcheckout-column-right { width:100%;}
+}

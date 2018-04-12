@@ -40,12 +40,12 @@
 
 
         <div class="container">
-            <div class="wrapper_w">
+            <div class="wrapper_w header-bottom">
                 <div id="logo"> <a href="<?php echo $this->getUrl('') ?>"><img   data-retina="true" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA).'buyshop/'.Mage::getStoreConfig('buyshopconfig/options/logo_header')?>"  alt="<?php echo $this->getLogoAlt() ?>"></a> </div>
-                <div class="pull-right padding-1">
+                <div class="pull-right padding-1 top-cart">
                     <?php echo $this->getChildHtml('topcart') ?>
                 </div>
-                <div class="pull-right padding-1">
+                <div class="pull-right padding-1 top-search">
                     <?php echo $this->getChildHtml('topSearch') ?>
                 </div>
             </div>

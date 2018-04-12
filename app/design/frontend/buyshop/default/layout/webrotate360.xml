@@ -27,10 +27,10 @@
             <action method="addCss">
                 <stylesheet>prettyPhoto/css/prettyphoto.css</stylesheet>
             </action>
-            <action method="addItem" ifconfig="wr360_product_view/settings/include_jquery">
+           <!--  <action method="addItem" ifconfig="wr360_product_view/settings/include_jquery">
                 <type>skin_js</type>
                 <name>webrotate360/imagerotator/html/js/jquery-1.12.4.min.js</name>
-            </action>
+            </action> -->
             <action method="addItem">
                 <type>skin_js</type>
                 <name>webrotate360/imagerotator/html/js/imagerotator.js</name>

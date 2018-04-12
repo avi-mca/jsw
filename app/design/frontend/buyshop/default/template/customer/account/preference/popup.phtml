@@ -1,19 +1,31 @@
 <?php if(Mage::getSingleton('customer/session')->isLoggedIn() && Mage::getSingleton('core/session')->getShownPopup() == 0): ?>
   <?php
   $customer = Mage::getSingleton('customer/session')->getCustomer();
-  if($customer->getPreference() != 1):
-    Mage::getSingleton('core/session')->setShownPopup(1);
-    ?>
+  //if($customer->getPreference() != 1):
+  Mage::getSingleton('core/session')->setShownPopup(1);
+  $block = $this->getLayout()->createBlock('reports/product_viewed');
+  $lastViewedCollection = $block->getItemsCollection();
+  $searchTerm = '';
+  foreach ($lastViewedCollection as $_item) {
+    $_item = Mage::getModel("catalog/product")->load($_item->getId());
+    if($_item->getSearchTerm() != ''){
+      $searchTerm = $_item->getSearchTerm();
+      break;
+    }
+  }
+  ?>
     <div class="back-layout">&nbsp;</div>
     <div class="login-popup">
         <div class="close"><a href="javascript:void();" class="cls-btn">X</a></div>
         <div class="left-block"><img src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA)?>wysiwyg/category-banner.jpg" alt="" /></div>
         <div class="right-block">
             <h1>Hello <?php echo $customer->getName()?>,</h1>
-            <p>Welcome to FOMA</p>
-            <p>Looking to buy a new Sofa? The timing couldn't have been better, we have just restocked a whole lot of sofa designers for Diwali.</p>
-            <p>Not Sure where to start? Click on the below link "Know me better", create an account and leave the rest to us.</p>
-            <p>We are a JSW venture and we believe in <span>"Bringing positive transformation to every life we touch"</span></p>
+            <p>Welcome to FORMA!</p>
+            <?php if(count($lastViewedCollection) > 0 && $searchTerm != ''): ?>
+              <p>Looking to buy a new <?php echo $searchTerm?>? The timing couldn’t have been better, we have just restocked a whole lot of <?php echo $searchTerm?> designs for Diwali.</p>
+              <p>Not sure where to start? Click on the below link "Know me better", set your preference and leave the rest to us.</p>
+            <?php endif; ?>
+            <p>We are a JSW venture and we believe in <span>"BRINGING POSITIVE TRANSFORMATION TO EVERY LIFE WE TOUCH"</span></p>
             <a href="<?php echo $this->getUrl('customer/account/preference')?>"><span>Know me better</span></a>
         </div>
     </div>
@@ -24,5 +36,5 @@
         });
     });
     </script>
-  <?php endif; ?>
+  <?php //endif; ?>
 <?php endif; ?>

@@ -1,0 +1,66 @@
+<!--@subject Welcome, {{var customer.name}}! @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"var logo_url":"Email Logo Image Url",
+"htmlescape var=$customer.name":"Customer Name",
+"store url=\"customer/account/\"":"Customer Account Url",
+"var customer.email":"Customer Email",
+"htmlescape var=$customer.password":"Customer Password"}
+@-->
+
+<!--@styles
+@-->
+
+{{template config_path="design/email/header"}}
+{{inlinecss file="email-inline.css"}}
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td class="action-content">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align:center" align="center">
+              <tr>
+                <td><img src="{{skin url="images/email-header.jpg"}}" alt="banner" /></td>
+              </tr>
+              <tr>
+                <td height="20">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                	<h1>Hi Sneha</h1>
+                    <p>I am Ram, your FORMA design consultant. Based on your preferences I have personally chosen these pieces
+for you and here are some ideas on how you could rearrange your living room. You can also view our recommendations
+on our website by clicking here.</p>
+                </td>
+              </tr>
+              <tr>
+                <td height="20">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center">
+                	<table style="margin:0 auto;" width="400" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="right" style="padding-right:15px; text-align:right"><img src="{{skin url="images/ram-kumar.png"}}" alt="banner" /></td>
+                        <td align="left">
+                        	<h5>Ram Kumar Nayak</h5>
+                        	<p><em>Personal design consultant</em></p>
+                        </td>
+                      </tr>
+                    </table>
+
+                </td>
+              </tr>
+              <tr>
+                <td height="20">&nbsp;</td>
+              </tr>
+              <tr>
+                <td><h2>Recomondations for you</h2></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer"}}

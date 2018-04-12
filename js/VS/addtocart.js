@@ -1,4 +1,4 @@
-/*jQuery.noConflict();*/
+jQuery.noConflict();
 jQuery(document).ready(function(){
     if(jQuery('.fancybox').length)
     {

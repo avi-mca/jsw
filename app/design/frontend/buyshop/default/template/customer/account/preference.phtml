@@ -1,3 +1,19 @@
+<?php
+$customer = Mage::getSingleton('customer/session')->getCustomer();
+
+$preference = Mage::getModel('customerpreference/customerpreference')->getCollection()
+                                          ->addFieldToFilter('entity_id', array('eq' => $customer->getId()))
+                                          ->getFirstItem();
+
+$fullName = ($preference->getFullname()) ? $preference->getFullname() : '';
+$budgetFrom = ($preference->getBudgetFrom()) ? number_format($preference->getBudgetFrom(), 2) : '';
+$budgetTo = ($preference->getBudgetTo()) ? number_format($preference->getBudgetTo(), 2) : '';
+if($customer->getPreference()){
+    $formAction = $this->getUrl('customer/account/preferenceEdit');
+}else{
+    $formAction = $this->getUrl('customer/account/preferencePost');
+}
+?>
 <h1><?php echo $this->__('Help us know you better') ?></h1>
 <div id="messages_customer_preference"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
 <p><?php echo $this->__('In less than 5 mins...') ?></p>
@@ -5,7 +21,7 @@
     <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
     <div class="fieldset">
         <label for="fullname"><span>A</span><?php echo $this->__('Full Name')?></label>
-        <input type="text" name="fullname" class="input-text required-entry" id="fullname" />
+        <input type="text" name="fullname" class="input-text required-entry" id="fullname" value="<?php echo $fullName?>"/>
     </div>
     <div class="fieldset">
         <label><span>B</span><?php echo $this->__('Number of family members who live with you')?></label>
@@ -33,7 +49,7 @@
         	<div class="cell">
             <input type="checkbox" name="attribute[style][]" id="style<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
             <label for="style<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
-            
+
             </div>
             <?php endforeach; ?>
         <?php endif;?>
@@ -51,7 +67,7 @@
         	<div class="color-box">
             <input type="checkbox" name="attribute[color][]" id="color<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
             <label for="color<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
-            
+
             </div>
             <?php endforeach; ?>
         <?php endif;?>
@@ -67,7 +83,7 @@
             foreach ($attributeOptions as $_option):
         ?>
         	<div class="item-box">
-            
+
             <input type="checkbox" name="attribute[looking_for][]" id="looking_for<?php echo $_option['value']?>" value="<?php echo $_option['value']?>" />
             <label for="looking_for<?php echo $_option['value']?>"><?php echo $_option['label']?></label>
             </div>
@@ -77,10 +93,10 @@
     <div class="fieldset">
         <label><span>F</span><?php echo $this->__('Your Budget range')?></label>
         <div class="input-box">
-        <input type="text" name="budget_from" class="input-text" title="Budget From" placeholder="Budget From" />
+        <input type="text" name="budget_from" value="<?php echo $budgetFrom?>" class="input-text" title="Budget From" placeholder="Budget From" />
         </div>
         <div class="input-box">
-        <input type="text" name="budget_to" class="input-text" title="Budget To" placeholder="Budget To" />
+        <input type="text" name="budget_to" value="<?php echo $budgetTo?>" class="input-text" title="Budget To" placeholder="Budget To" />
         </div>
     </div>
 

@@ -269,7 +269,7 @@
 	div.pp_pic_holder {
 		display: none;
 		position: absolute;
-		width: /*100px*/ 600px;
+		width: 100px;
 		z-index: 32000;
 	}
 

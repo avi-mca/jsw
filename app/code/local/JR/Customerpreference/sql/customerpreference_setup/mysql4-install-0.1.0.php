@@ -38,13 +38,11 @@ DROP TABLE IF EXISTS {$this->getTable('customer_preference_attribute')};
 CREATE TABLE {$this->getTable('customer_preference_attribute')} (
   `preference_attr_id` int(11) unsigned NOT NULL auto_increment,
   `attribute_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Attribute Id',
+  `attribute_code` varchar(100) NOT NULL default '',
   `preference_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'PREFERENCE Id',
   `values` varchar(255) DEFAULT NULL COMMENT 'Value',
   PRIMARY KEY (`preference_attr_id`),
-  UNIQUE KEY `UNQ_CUSTOMER_PREFERENCE_ATTR_PREFERENCE_ID_ATTRIBUTE_ID` (`attribute_id`),
   KEY `IDX_CUSTOMER_PREFERENCE_ATTR_PREFERENCE_ID` (`preference_id`),
-  KEY `IDX_CUSTOMER_PREFERENCE_ATTR_ATTRIBUTE_ID` (`attribute_id`),
-  CONSTRAINT `FK_CUSTOMER_PREFERENCE_ATTR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_CUSTOMER_PREFERENCE_ATTR_PREFERENCE_ID` FOREIGN KEY (`preference_id`) REFERENCES `customer_preference` (`preference_id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Customer Preference ATTRIBUTES';
 
